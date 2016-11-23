@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Learn_Paypal>
+            <version>1.0.0</version>
+        </Learn_Paypal>
+    </modules>
+    <frontend>
+        <routers>
+            <paypal>
+                <args>
+                    <modules>
+                        <Learn_Paypal before="Mage_Paypal">Learn_Paypal</Learn_Paypal>
+                    </modules>
+                </args>
+            </paypal>
+        </routers>
+    </frontend>
+</config>	
